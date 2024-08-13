@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    background-image: url(assets/vecteezy_abstract-blue-background-simple-design-for-your-website_6852804.jpg);
+
+}
+.alert-success a{
+    color:#3c763d;
+    
+}
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+form button{
+    margin: 0 auto;
+    width: 300px;
+    border:1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,.09);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    border-radius: 5px;
+    display: block;
+    margin-top: 20px;
+    
+}
+form button:hover{
+    background-color: #f0f0f0;
+    color: #be0707;
+    background: blue;
+}
+form {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: 600px;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align:center;
+    box-shadow: 0 4px 8px rgba(0,0,0,.09);
+    
+    justify-content: center;
+}
+form a{
+    display: block;
+    width:100%;
+    height:40px;
+    line-height:40px;
+    background-color:#ddd;
+    border-radius:5px;
+    margin-top:20px;
+    cursor:pointer;
+    transition:background .3s ease;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+form a:hover{
+    background-color:#ccc;
+    background: rgb(66, 66, 139);
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+    text-align: center;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+    text-align: center;
+
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+    text-align: center;
+}
+
+.alert-success {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    color: #3c763d;
+    border-radius: 3px;
+    text-align: center;
+}
+div{
+    text-align: center;
+    align:center;
+
+}

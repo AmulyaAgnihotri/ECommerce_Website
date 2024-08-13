@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    
+    <!-- @if (session('status')) -->
+    <div class="alert alert-success">
+        <!-- {{ session('status') }} -->
+        
+        <!-- @endif -->
+        <!-- /contact/send -->
+        
+        <form><h2>Contact Us</h2></form>
+        <form action="mailto:ambeshsr8601@gmail.com" method="POST">
+            <!-- @csrf -->
+            
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br>
+            <button type="submit">Send Message</button>
+            <P>------------------------------</P>
+            <a href="index.html">GO BACK TO HOME PAGE</a>
+        
+        </form>
+    </div>
+</body>
+</html>
